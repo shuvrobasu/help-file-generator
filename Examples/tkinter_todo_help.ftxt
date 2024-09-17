@@ -1,0 +1,117 @@
+{
+  "General": {
+    "title": [
+      {
+        "text": "Tkinter Todo List",
+        "tags": {
+          "bold": true,
+          "underline": true,
+          "family_Arial": true,
+          "size_18": true,
+          "color_#0000FF": true
+        }
+      },
+      {
+        "text": "",
+        "tags": {}
+      },
+      {
+        "text": "",
+        "tags": {}
+      }
+    ],
+    "description": [
+      {
+        "text": "A simple todo list application built using Tkinter.",
+        "tags": {
+          "family_Calibri": true,
+          "size_12": true
+        }
+      },
+      {
+        "text": "",
+        "tags": {}
+      }
+    ]
+  },
+  "MainWindow": {
+    "elements": {
+      "add_button": [
+        {
+          "text": "",
+          "tags": {}
+        },
+        {
+          "text": "",
+          "tags": {}
+        }
+      ],
+      "task_entry": [
+        {
+          "text": "Task Entry",
+          "tags": {
+            "bold": true,
+            "family_Arial": true,
+            "size_14": true,
+            "color_#008000": true
+          }
+        },
+        {
+          "text": "Enter your task here before adding it to the list.",
+          "tags": {
+            "family_Calibri": true,
+            "size_12": true
+          }
+        },
+        {
+          "text": "",
+          "tags": {}
+        }
+      ],
+      "task_listbox": [
+        {
+          "text": "Task List",
+          "tags": {
+            "bold": true,
+            "family_Arial": true,
+            "size_14": true,
+            "color_#008000": true
+          }
+        },
+        {
+          "text": "This list displays all your added tasks. Select a task here before removing it.",
+          "tags": {
+            "family_Calibri": true,
+            "size_12": true
+          }
+        },
+        {
+          "text": "",
+          "tags": {}
+        }
+      ],
+      "remove_button": [
+        {
+          "text": "Remove Task Button",
+          "tags": {
+            "bold": true,
+            "family_Arial": true,
+            "size_14": true,
+            "color_#008000": true
+          }
+        },
+        {
+          "text": "Click this button to remove the selected task from your todo list.",
+          "tags": {
+            "family_Calibri": true,
+            "size_12": true
+          }
+        },
+        {
+          "text": "",
+          "tags": {}
+        }
+      ]
+    }
+  }
+}
