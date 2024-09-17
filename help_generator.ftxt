@@ -1,0 +1,197 @@
+{
+  "General": {
+    "title": [
+      {
+        "text": "Help File Generator",
+        "tags": {
+          "bold": true,
+          "family_Arial": true,
+          "size_18": true,
+          "color_#0000FF": true
+        }
+      }
+    ],
+    "description": [
+      {
+        "text": "The Help File Generator is a tool designed to create and manage help documentation for GUI applications.",
+        "tags": {
+          "family_Calibri": true,
+          "size_12": true
+        }
+      },
+      {
+        "text": "It allows you to easily add, edit, and format help content for various UI elements.",
+        "tags": {
+          "family_Calibri": true,
+          "size_12": true
+        }
+      }
+    ]
+  },
+  "MainWindow": {
+    "elements": {
+      "file_entry": [
+        {
+          "text": "File Entry",
+          "tags": {
+            "bold": true,
+            "family_Arial": true,
+            "size_14": true,
+            "color_#008000": true
+          }
+        },
+        {
+          "text": "Enter the path to the Python file you want to analyze. You can type the path directly or use the Browse button to select the file.",
+          "tags": {
+            "family_Calibri": true,
+            "size_12": true
+          }
+        }
+      ],
+      "browse_button": [
+        {
+          "text": "Browse Button",
+          "tags": {
+            "bold": true,
+            "family_Arial": true,
+            "size_14": true,
+            "color_#008000": true
+          }
+        },
+        {
+          "text": "Click this button to open a file dialog and select the Python file you want to analyze.",
+          "tags": {
+            "family_Calibri": true,
+            "size_12": true
+          }
+        }
+      ],
+      "open_help_file_button": [
+        {
+          "text": "Open Help File Button",
+          "tags": {
+            "bold": true,
+            "family_Arial": true,
+            "size_14": true,
+            "color_#008000": true
+          }
+        },
+        {
+          "text": "Use this button to open an existing help file (.ftxt) for editing.",
+          "tags": {
+            "family_Calibri": true,
+            "size_12": true
+          }
+        }
+      ],
+      "analyze_button": [
+        {
+          "text": "Analyze Button",
+          "tags": {
+            "bold": true,
+            "family_Arial": true,
+            "size_14": true,
+            "color_#008000": true
+          }
+        },
+        {
+          "text": "Click this button to analyze the selected Python file and extract GUI elements.",
+          "tags": {
+            "family_Calibri": true,
+            "size_12": true
+          }
+        }
+      ],
+      "help_button": [
+        {
+          "text": "Help Button",
+          "tags": {
+            "bold": true,
+            "family_Arial": true,
+            "size_14": true,
+            "color_#008000": true
+          }
+        },
+        {
+          "text": "Click for information about how to use the Help File Generator.",
+          "tags": {
+            "family_Calibri": true,
+            "size_12": true
+          }
+        }
+      ],
+      "save_help_file_button": [
+        {
+          "text": "Save Help File Button",
+          "tags": {
+            "bold": true,
+            "family_Arial": true,
+            "size_14": true,
+            "color_#008000": true
+          }
+        },
+        {
+          "text": "Use this button to save the current help content to a .ftxt file.",
+          "tags": {
+            "family_Calibri": true,
+            "size_12": true
+          }
+        }
+      ],
+      "exit_button": [
+        {
+          "text": "Exit Button",
+          "tags": {
+            "bold": true,
+            "family_Arial": true,
+            "size_14": true,
+            "color_#008000": true
+          }
+        },
+        {
+          "text": "Click this button to close the Help File Generator application. You will be prompted to confirm before exiting.",
+          "tags": {
+            "family_Calibri": true,
+            "size_12": true
+          }
+        }
+      ],
+      "element_tree": [
+        {
+          "text": "Element Tree",
+          "tags": {
+            "bold": true,
+            "family_Arial": true,
+            "size_14": true,
+            "color_#008000": true
+          }
+        },
+        {
+          "text": "This tree view displays the GUI elements extracted from the analyzed Python file. Select an element to edit its help content.",
+          "tags": {
+            "family_Calibri": true,
+            "size_12": true
+          }
+        }
+      ],
+      "help_text": [
+        {
+          "text": "Help Text Editor",
+          "tags": {
+            "bold": true,
+            "family_Arial": true,
+            "size_14": true,
+            "color_#008000": true
+          }
+        },
+        {
+          "text": "Use this rich text editor to create and format help content for the selected GUI element. You can change font styles, sizes, colors, and add formatting like bold, italic, and underline.",
+          "tags": {
+            "family_Calibri": true,
+            "size_12": true
+          }
+        }
+      ]
+    }
+  }
+}
