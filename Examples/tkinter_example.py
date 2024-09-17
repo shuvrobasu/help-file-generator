@@ -11,6 +11,7 @@ class TodoApp:
         self.tasks = []
 
         self.create_widgets()
+        #Add a help file to use
         self.help_system = ContextualHelp("tkinter_todo_help.ftxt")
 
         self.create_widgets()
@@ -18,6 +19,8 @@ class TodoApp:
         # Bind F1 key to show help
         self.master.bind_all('<F1>', self.show_help)
 
+    #Define this function to show contextual help
+    #You can simply remove the debug print statements
     def show_help(self, event):
         focused_widget = self.master.focus_get()
         if focused_widget:
