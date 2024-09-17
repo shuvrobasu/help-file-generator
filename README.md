@@ -28,6 +28,8 @@ The Help File Generator is a powerful tool designed to create and manage help do
 1. Run the Help File Generator:
 
 python helpfilegenerator.py
+![image](https://github.com/user-attachments/assets/42fe429a-aa58-45e5-9ee4-fb5d22b26d6c)
+
 
 2. Use the "Browse" button to select a Python file containing GUI elements.
 3. Click "Analyze" to extract GUI elements from the selected file.
@@ -82,7 +84,7 @@ or
 def show_help(event):
     focused_widget = event.widget
     element_id = focused_widget.winfo_name()
-   scratch_266.display_help(element_id, "tkinter") ## Replace tkinter with PySimpleGui or PyQt as your GUI
+     help_system.display_help(element_id, "tkinter") ## Replace tkinter with PySimpleGui or PyQt as your GUI
 ````
 
 ## Contributing
