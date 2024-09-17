@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Help File Generator is a powerful tool designed to create and manage help documentation for GUI applications. It allows developers to easily add, edit, and format help content for various UI elements, streamlining the process of creating user documentation.
+The Help File Generator is a powerful tool designed to create and manage help documentation for GUI applications. It allows developers to easily add, edit, and format help content for various UI elements, streamlining the process of creating user documentation. This application will help to provide contextual help for your GUI based Python applications.
 
 ## Features
 
@@ -14,14 +14,14 @@ The Help File Generator is a powerful tool designed to create and manage help do
 
 ## Installation
 
-1. Clone the repository:
-git clone https://github.com/shuvrobasu/help-file-generator.git
+1. Clone the repository
+   <p>git clone https://github.com/shuvrobasu/help-file-generator.git
 
 2.  Navigate to the project directory:
-cd help-file-generator
+      <p>cd help-file-generator
 
 3. Install required dependencies
-   pip install -r requirements.txt
+   <p>NONE REQUIRED. USES TKINTER which should be installed by default for all Python installs. Tested with <ins>3.10.0</ins> on Windows 11.0
 
 ## Usage
 
@@ -34,13 +34,13 @@ python helpfilegenerator.py
 4. Select an element from the tree view to edit its help content.
 5. Use the rich text editor to format the help content as desired.
 6. Click "Save Help File" to save the help content to a .ftxt file.
+7. <ins>See Examples folder for TK, PySimpleGUI and PyQt scripts and usage</ins>
 
 ## File Structure
 
 - `helpfilegenerator.py`: Main application file
 - `contextualhelp.py`: Contains the ContextualHelp class for managing help content
-- `formattedtexteditor.py`: Implements the rich text editor functionality
-- `helpfilegenerator_help.ftxt`: Sample help file for the Help File Generator itself
+- `helpfilegenerator_help.ftxt`: <i><b>Sample help file for the Help File Generator created with this app !</b></i>
 
 ## .ftxt File Format
 
@@ -61,3 +61,12 @@ The Help File Generator uses a custom .ftxt file format based on JSON. This form
  }
 }
 }
+````
+## Contributing
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Support
+If you encounter any problems or have any questions, please open an issue on the GitHub repository.
