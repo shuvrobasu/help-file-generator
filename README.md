@@ -35,6 +35,7 @@ python helpfilegenerator.py
 5. Use the rich text editor to format the help content as desired.
 6. Click "Save Help File" to save the help content to a .ftxt file.
 7. <ins>See Examples folder for TK, PySimpleGUI and PyQt scripts and usage</ins>
+8. A Tk sample script has been uploaded with a help file for the sample app to help you get started. PySimpleGui and PyQt will be added shortly.
 
 ## File Structure
 
