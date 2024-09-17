@@ -63,6 +63,28 @@ The Help File Generator uses a custom .ftxt file format based on JSON. This form
 }
 }
 ````
+## How to use 
+Once you have created the help file for your app, you need to also integrate it to work with your app. For the help system to work, you need to follow the below steps. See the Example folder for scripts on how to use in greater detail. 
+<H2>Remember : You need to bind the F1 key in your code (depending on the GUI) and capture it in the events as well</H2>
+
+1) add the import statement
+```python
+from contextualhelp import ContextualHelp
+````
+2) Define the helpfile in your code. If you are using a Class or Classes, then add this line to your Main Class, else add to your Main Function
+````python
+  self.help_system = ContextualHelp("your_help_filename.ftxt") # in a class
+or
+    help_system = ContextualHelp("your_help_filename.ftxt") #at top of your script where variables are declared 
+````
+3. Define this function at the top of your code
+````python
+def show_help(event):
+    focused_widget = event.widget
+    element_id = focused_widget.winfo_name()
+   scratch_266.display_help(element_id, "tkinter") ## Replace tkinter with PySimpleGui or PyQt as your GUI
+````
+
 ## Contributing
 Contributions are welcome! Please feel free to submit a Pull Request.
 
