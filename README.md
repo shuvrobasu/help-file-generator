@@ -1,4 +1,4 @@
-# Help File Generator
+# Python Contextual Help File Generator
 
 ## Overview
 
